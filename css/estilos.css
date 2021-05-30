@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
@@ -8,10 +8,32 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 #proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+#sobre-mi {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
 }
 #proyectos h2 {
     font-size: 16px;
@@ -20,78 +42,87 @@ body{
     padding: 0px;
     margin: 0px;
 }
-#proyectos img{
+
+#proyectos img {
     height: 177px;
 }
-#proyectos .card p{
-    height: 90px;;
+
+#proyectos .card p {
+    height: 90px;
+    ;
 }
-.color-gradiente{
-    background: rgba(184,37,20,1);
-    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
-    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
-    }
+
+.color-gradiente {
+    background: rgba(184, 37, 20, 1);
+    background: -moz-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184, 37, 20, 1)), color-stop(47%, rgba(214, 52, 30, 1)), color-stop(70%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(240, 47, 23, 1)));
+    background: -webkit-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -o-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1);
+}
 
 p {
     color: #6a6a6a;
     font-size: 14px;
 }
 
-input, textarea, .btn{
+input, textarea, .btn {
     border-radius: 15px !important;
 }
 
-textarea{
+textarea {
     height: 150px;
 }
 
-nav .nav-link{
+nav .nav-link {
     color: #282828;
 }
-nav .active{
+
+nav .active {
     border: 1px solid #e20000;
     border-radius: 20px;
 }
 
-h1{
+h1 {
     color: #e20000;
     font-weight: 500;
 }
-footer, footer a{
+
+footer, footer a {
     color: white;
     font-weight: 100;
     font-size: 14px;
 }
 
-.btn{
-    color: #370a6d;
-    background-color: white;
-    border: none;
+.btn {
+    background-color: #FFFFFF;
+    color: #370A6D;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 5px 35px;
 }
 
-.btn:hover{
+.btn:hover {
     color: white;
     background-color: #370a6d;
 }
-.btn-rojo{
+
+.btn-rojo {
     background-color: #e20000;
     color: white;
     font-weight: 200;
     border-radius: 15px !important;
 }
 
-
-.link-rojo a{
+.link-rojo a {
     color: #e20000;
     text-decoration: none;
 }
 
-.whatsapp{
+.whatsapp {
     color: white;
     background-color: #370a6d;
     width: 60px;
@@ -105,17 +136,16 @@ footer, footer a{
     bottom: 0px;
 }
 
-.whatsapp a{
+.whatsapp a {
     color: white;
 }
 
-
-
-footer .fa-github{
+footer .fa-github {
     font-size: 30px;
     color: white;
 }
-footer .fa-linkedin-in{
+
+footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -128,11 +158,53 @@ footer .fa-linkedin-in{
     margin: 0 8px;
 }
 
-@media (max-width: 750px) {/* Para mobile */
-    #contacto {
+#proyectos footer .fa-linkedin-in {
+    color: white;
+    background-color: #E20000;
+}
+
+#proyectos footer .fa-github {
+    font-size: 30px;
+    color: #E20000;
+}
+
+#proyectos footer, #proyectos footer a {
+    color: #E20000;
+    text-decoration: none;
+}
+
+#inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+#inicio .div-cohete {
+    height: 410px;
+}
+
+#inicio .cohete {
+    height: 400px;
+}
+
+#inicio .cohete:hover {
+    height: 410px;
+}
+
+#inicio {
+    background-image: url(../images/fondocontacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 750px) {
+    /* Para mobile */
+    #contacto, #inicio, #proyectos {
         background-image: url(../images/fondo-proyectos.png)
     }
-    footer, footer a{
+    footer, footer a {
         color: #E20000;
     }
     footer .fa-github {
