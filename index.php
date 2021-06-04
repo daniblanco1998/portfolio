@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/fontawesome-dan/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
     <link rel="shortcut icon" href="images/favicon.ico" />
     <title>Proyectos</title>
 </head>
@@ -43,13 +43,13 @@
         <div class="row mt-5">
             <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-blanco-5954b71b1" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                 Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
             </div>
             <div class="col-12 col-sm-3 text-sm-start  pt-2 p-sm-0">
-                <a href="mailto:info@depcsuite.com">info@nelsontarche.com.ar</a>
+                <a href="danieloropeza98sc@gmail.com">danieloropeza98sc@gmail.com</a>
             </div>
 
         </div>
