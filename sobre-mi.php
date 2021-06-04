@@ -7,9 +7,9 @@ $pg = "sobre-mi";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap-dan/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome-dan/css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome-dan/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos2.css">
     <link rel="shortcut icon" href="images/favicon.ico" />
