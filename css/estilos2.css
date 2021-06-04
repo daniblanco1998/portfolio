@@ -88,6 +88,9 @@ footer, footer a {
     border-radius: 15px;
     padding: 40px 0;
 }
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
 
 #idiomas .card-idiomas {
     border-radius: 15px;
