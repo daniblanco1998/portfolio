@@ -2,6 +2,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
+h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
 
 .img-circle {
     margin: 1em auto;
@@ -10,7 +15,10 @@ body {
     padding: -1px;
     border-radius: 50%;
 }
+#tecnologias{
+    margin: 10px;
 
+}
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -76,6 +84,7 @@ h1 {
     color: #e20000;
     font-weight: 500;
 }
+
 
 footer, footer a {
     color: white;
@@ -150,7 +159,9 @@ footer, footer a {
     color: white;
     font-weight: 100;
     border-radius: 15px;
+    padding: 6px;
 }
+
 
 .link-rojo a {
     color: #e20000;

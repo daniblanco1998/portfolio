@@ -44,11 +44,11 @@
                             y Json.</p>
                     </div>
                     <div class="row py-5">
-                        <div class="col-6">
-                            <a href="" class="btn btn-rojo">Ver online</a>
+                        <div class="col-6 ">
+                            <a href="http://localhost/php-da/abmclientes-db/index.php" class="btn btn-rojo">Ver online</a>
                         </div>
                         <div class="col-6 link-rojo text-center">
-                            <a href="">Código fuente</a>
+                            <a href="view-source:http://localhost/php-da/abmclientes-db/index.php">Código fuente</a>
                         </div>
                     </div>
                 </div>

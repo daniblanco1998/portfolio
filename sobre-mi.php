@@ -34,8 +34,8 @@ $pg = "sobre-mi";
         <section class="color-gradiente pb-5" id="tecnologias">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 my-sm-5 text-white">
-                        <h2>Stack tecnológico</h2>
+                    <div class="col-12">
+                        <h2 class="my-sm-5 text-white">Stack tecnológico</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -82,7 +82,7 @@ $pg = "sobre-mi";
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-4">
+                    <div class="row mt-sm-4 mt-0">
                         <div class="col-sm-2 col-6 text-center">
                             <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                                 <h3>Laravel</h3>
